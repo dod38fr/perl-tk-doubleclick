@@ -2,7 +2,7 @@
 
 package Tk::DoubleClick;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use strict;
 use warnings;
@@ -13,7 +13,7 @@ Tk::DoubleClick - Correctly handle single-click vs double-click events,
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =head1 SYNOPSIS
 
