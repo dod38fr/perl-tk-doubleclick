@@ -10,7 +10,6 @@ use warnings;
 =head1 NAME
 
 Tk::DoubleClick - Correctly handle single-click vs double-click events,
-calling only the appropriate callback for the given event.
 
 =head1 VERSION
 
@@ -29,11 +28,18 @@ Version 0.02
     );
 
 
-=head1 EXPORT
+=head1 DESCRIPTION
 
-bind_clicks()
+Tk::DoubleClick module correctly handle single-click vs double-click events,
+calling only the appropriate callback for the given event.
 
-=head1 REQUIRED PARAMETERS
+This module always exports C<bind_clicks()>.
+
+=head1 FUNCTIONS
+
+=head2 bind_clicks()
+
+Required parameters:
 
 =over 5
 
@@ -56,7 +62,7 @@ can be omitted.
 
 =back
 
-=head1 OPTIONS
+Options:
 
 =over 5
 
